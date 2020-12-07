@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+* {
+  font-family: Helvetica;
+  letter-spacing: 1.5px;
+  color: rgb(1, 47, 73);
+}
+
+.body{
+  display: flex;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  margin-top: -1em;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  height: 5rem;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  margin-top: -1em;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  height: 5rem;
+
+}
+
+
+input{
+  background-color: rgb(0, 32, 53);
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  padding: .5rem;
+  font-size: .9rem;
+}
+
+input:hover{
+  background-color: rgb(255, 255, 255);
+  color:  rgb(0, 32, 53);
+}
+
+.img{
+  height: 25px;
+  width: 25px;
+  padding: 1rem 0 1rem;
+}
+
+#menu>*:hover{
+  border-bottom: 2px solid rgb(10, 59, 194);
+  cursor: pointer;
+}
+
+#menu-name:hover{
+  width: 237px;
+}
+
+#menu-project:hover{
+  width: 97px;
+}
+
+#menu-about:hover{
+  width: 68px;
+}
+
+#menu-container{
+  display: flex;
+  background-color: yellow;
+  align-items: center;
+  height: 85vh;
+  width: 29rem;
+  border-right: 1px solid rgb(10, 59, 194);
+  position: fixed;
+
+}
+
+#menu{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 27vh;
+  justify-content: space-around;
+}
+
+#body-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   background-color: rgb(171, 171, 236);
+   justify-content: center;
+   width: 95%;
+   margin-left: 20rem;
+}
+
+#bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(191, 243, 88);
+  width: 90%;
+  justify-content: center;
+  display: none
+
+}
+
+#bio2{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(226, 124, 175);
+width: 90%;
+display: none
+}
+
+
+#projects-container{
+  background-color: rgb(238, 116, 116) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+
+}
+
+#contact-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.app{
+  width: 100%;
+  padding: 1rem;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+}
+
+.btn-container{
+  align-self: flex-start;
+}
+
+.title{
+  font-weight: bolder;
+  font-size: 2rem;
+
+}
+
+h2, p{
+  font-weight: 100;
+}
+
+#personal-bio{
+  margin-bottom: 2rem;
+}
+
+.contact{
+  padding: 1rem;
+}
+
+.project{
+  border: 3px solid black;
+  margin-bottom:  3rem
+}
+
+.picture{
+  cursor: pointer;
+}
