@@ -196,6 +196,8 @@ h2, p{
 
 .picture{
   cursor: pointer;
+  width:700px;
+  height:350px;
 }
 
 .sub-headline{
@@ -212,3 +214,20 @@ h5{
   padding: 2rem;
   color: rgb(165, 160, 160);
 }
+
+@media screen and (max-width: 1410px) {
+  #menu-container{
+    width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 1195px){
+  .project, .picture{
+    width: 300px;
+
+
+  }
+
+}
+
