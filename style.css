@@ -138,7 +138,7 @@ p{
 
 
 .projects-container{
-  background-color: white ;
+  background-color: rgb(255, 255, 255) ;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -191,7 +191,8 @@ h2, p{
 
 .project{
   border: 1px solid rgb(215, 215, 216);
-  margin-bottom:  3rem
+  margin-bottom:  3rem;
+  background-color: rgb(255, 255, 255);
 }
 
 .picture{
@@ -215,19 +216,108 @@ h5{
   color: rgb(165, 160, 160);
 }
 
-@media screen and (max-width: 1410px) {
+#menu1{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 1410px){
+
+  #menu1>*:hover{
+    border-bottom: 1px solid rgb(10, 59, 194);
+    cursor: pointer;
+  }
+
+  #menu-name:hover{
+    width: 162.5px;
+  }
+  
+  #menu-project:hover{
+    width: 66px;
+  }
+  
+  #menu-about:hover{
+    width: 47px;
+  }
+
+  #menu1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  #menu-name{
+    min-width: 100px;
+    font-size: 10px;
+
+  }
+
+ #menu-project, #menu-about{
+    font-size: 10px;
+  }
+
+  h1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.5rem;
+    flex-wrap: wrap;
+    width: 330px;
+  }
+
+
+
+  .sub-headline{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.5rem;
+    flex-wrap: wrap;
+    width: 329px;
+  }
+
+  .picture{
+    width: 100%;
+    height: 50%;
+  }
+
+  .nav-bar{
+    display: block;
+  }
+
+  #body-container{
+   margin: 0;
+  }
+
   #menu-container{
-    width: 300px;
+    display: none;
   }
+
+  .info{
+    width: 100%;
+  }
+  
+  p{
+    font-size: 15px;
+  }
+
+
+  .title{
+    font-size: 20px;
+  }
+
+
+   .app{
+    max-width: 325px;
+    margin-bottom: 0;
+  }
+
+ 
+
+
+ 
 
 }
 
-@media screen and (max-width: 1195px){
-  .project, .picture{
-    width: 300px;
-
-
-  }
-
-}
 

@@ -1,6 +1,6 @@
 'use scrict'
 
-const menu = document.querySelector('#menu-container')
+const body = document.querySelector('body')
 const projectsContainer = document.querySelector('.projects-container')
 const bio = document.querySelector('.bio')
 const bio2 = document.querySelector('.bio2')
@@ -35,4 +35,4 @@ const displayAboutMe=()=>{
   : item.classList.remove('hidden')))
 }
   
-menu.addEventListener('click', displayMenuItems)
+body.addEventListener('click', displayMenuItems)
