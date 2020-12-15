@@ -15,6 +15,7 @@
 
 .body{
   display: flex;
+
 }
 
 .header{
@@ -106,10 +107,8 @@ input:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-   justify-content: center;
-   width: 95%;
-   margin-left: 20rem;
-   
+   align-items: flex-end;
+   width: 80%;
 }
 
 .bio {
@@ -119,7 +118,7 @@ input:hover{
   background-color: white;
   width: 90%;
   justify-content: center;
-  align-self: flex-end;
+  align-items: flex-end;
   height: 86.5vh;
 }
 
@@ -138,7 +137,7 @@ p{
   background-color: white;
   width: 90%;
   justify-content: center;
-  align-self: flex-end;
+  align-items: flex-end;
   height: 86.5vh;
 
 
@@ -207,11 +206,14 @@ p{
 }
 
 .sub-headline{
-  width: 80%;
+  width: 770px;
   background-color:white;
   font-size: 22px;
   color: rgb(1, 47, 73);
 }
+
+
+
 
 .hidden{
   display: none;
@@ -230,6 +232,12 @@ h2{
   font-weight:normal
 }
 
+#wel{
+  color: white;
+}
+
+
+
 @media screen and (max-width: 1410px){
   #menu-container{
     width: 250px;
@@ -239,9 +247,7 @@ h2{
     height: 250px;
   }
 
-  #body-container{
-    width: 1150px;
-  }
+ 
 
 }
 
@@ -300,7 +306,7 @@ h2{
 
   .picture{
     width: 100%;
-    height: 55%;
+    height: 45%;
   }
 
   .nav-bar{
@@ -316,9 +322,9 @@ h2{
   }
 
   .info{
-    width: 100%;
-  }
-  
+    width: 95%;
+  } 
+   
   p{
     font-size: 15px;
   }
@@ -333,26 +339,51 @@ h2{
      display: flex;
      flex-direction: column;
      align-items: center;
-    width: 100%;
+    width: 90%;
     margin-right: 0;
   }
   
   .description{
-    width: 390px;
+    width: 285px;
   }
 
 
 
   .project{
     height: 450px;
-    margin-left: 1rem;
+    width: 100%;
   }
+  
 #ttt {
-  padding-bottom: 20px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+
 }
  
-#library-p, #to-do{
-  padding-bottom:17px;
+#library-p{
+  padding-bottom: 2.8rem;
+  padding-top: 1rem;
+
+}
+
+#cal{
+  padding-bottom: 1.7rem;
+  padding-top: 1rem;
+
+
+}
+
+input{
+  width: 100%;
+
+}
+
+#td{
+  padding-bottom: .6rem;
+  padding-top: 1rem;
+
+
 }
 
 .btn{
@@ -364,11 +395,27 @@ h2{
   color: rgb(255, 255, 255);
 }
 
-.header, .footer{
-  width: 125%;
+.footer{
+  width: 100%;
 }
+
+.header{
+  width: 100%;
+}
+
+#wel{
+  display: none;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
  
-
 }
-
 
