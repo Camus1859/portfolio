@@ -10,9 +10,7 @@
   color: rgb(1, 47, 73);
 }
 
-* p{
-  font-weight: 100;
-}
+
 
 .body{
   display: flex;
@@ -178,7 +176,6 @@ p{
 }
 
 h2, p{
-  font-weight: 100;
 }
 
 #personal-bio{
@@ -303,7 +300,6 @@ h5{
   
   p{
     font-size: 15px;
-    font-weight: 100;
   }
 
 
