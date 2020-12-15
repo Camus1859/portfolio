@@ -189,7 +189,7 @@ h2, p{
 }
 
 .project{
-  border: 1px solid rgb(0, 0, 255);
+  border: 1px solid rgb(212, 212, 235);
   margin-bottom:  3rem;
   background-color: rgb(255, 255, 255);
 }
@@ -299,6 +299,7 @@ h5{
   
   p{
     font-size: 15px;
+    font-weight: 100;
   }
 
 
