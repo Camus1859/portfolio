@@ -161,7 +161,6 @@ p{
 .btn{
   display: flex;
   flex-direction: row;
-  padding-left: 1rem;
 }
 
 .btn-container{
@@ -190,7 +189,7 @@ h2, p{
 }
 
 .project{
-  border: 1px solid rgb(215, 215, 216);
+  border: 1px solid rgb(0, 0, 255);
   margin-bottom:  3rem;
   background-color: rgb(255, 255, 255);
 }
@@ -313,9 +312,22 @@ h5{
     margin-bottom: 0;
   }
 
+  .project{
+    height: 450px;
+    margin-left: 1rem;
+  }
+#ttt {
+  padding-bottom: 34px;
+}
  
+#library-p{
+  padding-bottom:50px;
+}
 
-
+.btn{
+  display: flex;
+  justify-content: center;
+}
  
 
 }
