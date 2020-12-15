@@ -175,8 +175,6 @@ p{
 
 }
 
-h2, p{
-}
 
 #personal-bio{
   margin-bottom: 2rem;
@@ -205,6 +203,8 @@ h2, p{
   width: 80%;
   background-color:white;
   font-size: 22px;
+  color: rgb(1, 47, 73);
+
 }
 
 .hidden{
@@ -218,6 +218,10 @@ h5{
 
 #menu1{
   display: none;
+}
+
+h2{
+  font-weight:normal
 }
 
 
