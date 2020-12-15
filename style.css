@@ -12,6 +12,7 @@
 
 
 
+
 .body{
   display: flex;
 }
@@ -108,7 +109,7 @@ input:hover{
    justify-content: center;
    width: 95%;
    margin-left: 20rem;
-    background: linear-gradient(-45deg, rgb(235, 170, 170), rgb(211, 209, 209));
+   
 }
 
 .bio {
@@ -150,7 +151,7 @@ p{
   flex-direction: column;
   align-items: flex-end;
   width: 55%;
-  background: linear-gradient(-45deg, rgb(235, 170, 170), rgb(211, 209, 209));
+  background: white;
 
 }
 
@@ -210,7 +211,6 @@ p{
   background-color:white;
   font-size: 22px;
   color: rgb(1, 47, 73);
-
 }
 
 .hidden{
@@ -230,9 +230,23 @@ h2{
   font-weight:normal
 }
 
-
-
 @media screen and (max-width: 1410px){
+  #menu-container{
+    width: 250px;
+  }
+  .picture{
+    width: 500px;
+    height: 250px;
+  }
+
+  #body-container{
+    width: 1150px;
+  }
+
+}
+
+
+@media screen and (max-width: 900px){
   #menu1>*:hover{
     border-bottom: 1px solid rgb(140, 158, 207);
     cursor: pointer;
@@ -286,7 +300,7 @@ h2{
 
   .picture{
     width: 100%;
-    height: 50%;
+    height: 55%;
   }
 
   .nav-bar{
@@ -348,6 +362,10 @@ h2{
 
 h2{
   color: rgb(255, 255, 255);
+}
+
+.header, .footer{
+  width: 125%;
 }
  
 
