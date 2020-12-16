@@ -25,7 +25,7 @@
   top: 0;
   margin-top: 0em;
   z-index: 1;
-  height: 5rem;
+  height: 4rem;
   color: white;
   align-items: center;
   justify-content: center;
@@ -38,10 +38,10 @@
   display: flex;
   position: sticky;
   bottom: 0;
-  margin-top: -1em;
+  margin-top: 0em;
   background-color: rgb(54, 2, 2);
-  z-index: 1;
-  height: 4.9rem;
+  z-index: 0;
+  height: 4rem;
   justify-content: center;
 }
 
@@ -87,7 +87,7 @@ input:hover{
   background: linear-gradient(-45deg, rgb(143, 120, 120), rgb(255, 255, 255));
 
   align-items: center;
-  height: 85vh;
+  height: 87vh;
   width: 29rem;
   border-right: 3px solid rgb(206, 206, 206);
   position: fixed;
@@ -329,7 +329,6 @@ h2{
 
   .bio, .bio2{
     height: 650px;
-
   }
 
 
